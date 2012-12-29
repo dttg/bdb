@@ -84,10 +84,12 @@
 
 })( jQuery );
 
+
+
 function initialize() {
-	var myLatlng = new google.maps.LatLng(33.59,-80);
+	var myLatlng = new google.maps.LatLng(-20.3115,-43.4131);
 	var mapOptions = {
-	  zoom: 8,
+	  zoom: 10,
 	  center: myLatlng,
 	  mapTypeId: google.maps.MapTypeId.ROADMAP
 	}
@@ -103,7 +105,7 @@ function initialize() {
 	var marker = new google.maps.Marker({
 	    position: myLatlng,
 	    map: map,
-	    title: 'Hello'
+	    title: 'Ouro Branco'
 	});
 	google.maps.event.addListener(marker, 'click', function() {
 	  infowindow.open(map,marker);
