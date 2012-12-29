@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Mustache</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,900italic,700|Prata|Qwigley' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+</head>
+<body>
+<div id="top"></div>
+
+<div id="logo-nav">
+	<header class="container">
+		<hgroup>
+			<h1 id="logo"><a href="#"><img src="images/logo.png" alt="Mustache Collective" /></a></h1>
+		</hgroup><!-- /hgroup -->	
+		<nav id="navigation" class="sixteen group">
+			<ul class="six columns left main-nav">
+				<li><a href="#" class="opt1">Services</a></li>
+				<li><a href="#" class="opt2">Portfolio</a></li>										
+			</ul><!-- /nav.left -->
+			<p class="four columns"></p>
+			<ul class="six columns right main-nav">
+				<li><a href="#" class="opt3">Team</a></li>
+				<li><a href="#" class="opt4">Contact</a></li>										
+			</ul><!-- /nav.right -->
+		</nav><!-- /navigation -->
+	</header><!-- /header.container -->	
+</div><!-- /logo-nav -->
+
+<div id="services-wrap">
+	<section id="services" class="container">
+		<h4 class="section-title section-title-offset"><span>Hello</span></h4>
+		<hgroup>
+			<h2>We provide solutions to design problems. We also think Themeforest rules. What a marketplace.</h2>
+			<h3 class="action">How can we help you today?</h3>
+		</hgroup>
+		
+		<h4 id="opt1" class="section-title section-light"><span>Services</span></h4>
+		<ul class="services sixteen columns group">
+			<li class="four columns alpha">
+				<img src="dummy/icon_web.png" class="scale-with-grid" alt="" />
+				<h2>Web design</h2>
+				<p>Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. </p>
+			</li>
+			<li class="four columns">
+				<img src="dummy/icon_code.png" class="scale-with-grid" alt="" />
+				<h2>Web development</h2>
+				<p>Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. </p>
+			</li>
+			<li class="four columns">
+				<img src="dummy/icon_ios.png" class="scale-with-grid" alt="" />
+				<h2>iOs development</h2>
+				<p>Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. </p>
+			</li>
+			<li class="four columns omega">
+				<img src="dummy/icon_graphic_design.png" class="scale-with-grid" alt="" />
+				<h2>Graphic design</h2>
+				<p>Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. </p>
+			</li>
+		</ul><!-- /services.group -->
+	</section><!-- /#services -->
+</div><!-- /container -->
+
+<div id="portfolio-wrap">
+	<section id="portfolio" class="container">
+		<h4 id="opt2" class="section-title section-title-offset"><span>Portfolio</span></h4>
+		
+		<nav id="portfolio-filters">
+			<a href="#" data-filter="*">Show All</a>
+			<a href="#" data-filter=".web-design">Web design</a>
+			<a href="#" data-filter=".web-development">Web development</a>
+		</nav><!-- /portfolio-filters -->
+		
+		<div id="portfolio-items" class="row">
+			<article class="four columns portfolio-item web-design">
+				<a href="dummy/700x400.gif" class="fb"><img src="dummy/aegean.png" alt="" class="scale-with-grid" /></a>
+				<h3>Aegean Resort</h3>
+			</article><!-- /portfolio-item -->
+			<article class="four columns portfolio-item web-design">
+				<a href="dummy/700x400.gif" class="fb"><img src="dummy/pinfinity.png" alt="" class="scale-with-grid" /></a>
+				<h3>StereoSquared</h3>
+			</article><!-- /portfolio-item -->
+			<article class="four columns portfolio-item web-development">
+				<a href="dummy/700x400.gif" class="fb"><img src="dummy/pinfinity.png" alt="" class="scale-with-grid" /></a>
+				<h3>Pinfinity</h3>
+			</article><!-- /portfolio-item -->
+			<article class="four columns portfolio-item web-design">
+				<a href="dummy/700x400.gif" class="fb"><img src="dummy/indigamer.png" alt="" class="scale-with-grid" /></a>
+				<h3>Indigamer</h3>
+			</article><!-- /portfolio-item -->
+			<article class="four columns portfolio-item web-design">
+				<a href="dummy/700x400.gif" class="fb"><img src="dummy/agora.png" alt="" class="scale-with-grid" /></a>
+				<h3>Agora</h3>
+			</article><!-- /portfolio-item -->
+			<article class="four columns portfolio-item web-development">
+				<a href="dummy/700x400.gif" class="fb"><img src="dummy/femme.png" alt="" class="scale-with-grid" /></a>
+				<h3>Femme</h3>
+			</article><!-- /portfolio-item -->
+			<article class="four columns portfolio-item web-design">
+				<a href="dummy/700x400.gif" class="fb"><img src="dummy/me.png" alt="" class="scale-with-grid" /></a>
+				<h3>Me</h3>
+			</article><!-- /portfolio-item -->
+			<article class="four columns portfolio-item web-development">
+				<a href="dummy/700x400.gif" class="fb"><img src="dummy/molly.png" alt="" class="scale-with-grid" /></a>
+				<h3>Molly</h3>
+			</article><!-- /portfolio-item -->
+		</div><!-- /portfolio-items -->
+		
+	</section><!-- /portfolio -->
+	
+	<section id="clients" class="container">
+		<h4 class="section-title section-dark"><span>Clients</span></h4>
+		<div id="client-items" class="row">
+			<article class="four columns client-item">
+				<img src="dummy/ci.png" alt="" class="scale-with-grid" />
+			</article><!-- /portfolio-item -->
+			<article class="four columns client-item">
+				<img src="dummy/logo_indigamer.png" alt="" class="scale-with-grid" />
+			</article><!-- /portfolio-item -->
+			<article class="four columns client-item">
+				<img src="dummy/logo_s2.png" alt="" class="scale-with-grid" />
+			</article><!-- /portfolio-item -->
+			<article class="four columns client-item">
+				<img src="dummy/logo_femme.png" alt="" class="scale-with-grid" />
+			</article><!-- /portfolio-item -->
+			<article class="four columns client-item">
+				<img src="dummy/logo_aegean.png" alt="" class="scale-with-grid" />
+			</article><!-- /portfolio-item -->
+			<article class="four columns client-item">
+				<img src="dummy/logo_philoxenia.png" alt="" class="scale-with-grid" />
+			</article><!-- /portfolio-item -->
+			<article class="four columns client-item">
+				<img src="dummy/logo_lucullan.png" alt="" class="scale-with-grid" />
+			</article><!-- /portfolio-item -->
+			<article class="four columns client-item">
+				<img src="dummy/logo_business.png" alt="" class="scale-with-grid" />
+			</article><!-- /portfolio-item -->
+		</div><!-- /client-items -->
+		
+		<h3 class="action">And who's behind all that?</h3>		
+	</section><!-- /portfolio -->	
+</div><!-- /portfolio-wrap -->
+
+<div id="team-wrap">
+	<section id="team" class="container">	
+
+		<h4 id="opt3" class="section-title section-title-offset"><span>The team</span></h4>
+
+		<ul class="team sixteen columns group">
+			<li class="four columns alpha">
+				<img src="dummy/team1.png" class="scale-with-grid" alt="" />
+				<h2>John Themeforest</h2>
+				<p>Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. </p>
+			</li>
+			<li class="four columns">
+				<img src="dummy/team2.png" class="scale-with-grid" alt="" />
+				<h2>Maria Videohive</h2>
+				<p>Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. </p>
+			</li>
+			<li class="four columns">
+				<img src="dummy/team3.png" class="scale-with-grid" alt="" />
+				<h2>Joe Audiojungle</h2>
+				<p>Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. </p>
+			</li>
+			<li class="four columns omega">
+				<img src="dummy/team4.png" class="scale-with-grid" alt="" />
+				<h2>Tom Graphicriver</h2>
+				<p>Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. </p>
+			</li>
+		</ul><!-- /services.group -->
+		
+		<h3 class="action">Ok, I'm sold! How do i get in touch?</h3>
+		
+	</section><!-- /#services -->
+</div><!-- /container -->
+
+<div id="contact-wrap">
+	<h4 id="opt4" class="section-title section-title-offset"><span>Contact</span></h4>
+	<div id="map">
+		map
+	</div><!-- /map -->
+	<div class="container">
+		<div class="sixteen columns contact">
+			<div class="eight columns alpha">
+				<h3>Contact form</h3>
+				<form method="post" action="process.php" id="cform">
+					<p><input type="text" name="name" title="Your name" /></p>
+					<p><input type="text" name="email" title="Your email" /></p>
+					<p><input type="text" name="subject" title="Subject" /></p>
+					<p><textarea cols="3" rows="3" name="message" title="Your message"></textarea></p>
+					<p><input type="submit" id="submit" value="Submit" /></p>
+				</form>
+				<div id="done">
+					Thank you :)
+				</div>
+			</div>
+			<div class="six columns omega offset-by-two">
+				<h3>Contact details</h3>
+				<ul>
+					<li>Your Company ltd.</li>
+					<li>101 youstreet str.</li>
+					<li>Thessaloniki, 57010</li>
+					<li>Greece</li>
+					<li><strong>info@yourdomain.com</strong></li>					
+				</ul>
+				<h3 class="social">We are social</h3>
+				<p class="widget_ci_social_widget">
+					<a href="#" class="icn twitter">Twitter</a>
+					<a href="#" class="icn facebook">Facebook</a>
+					<a href="#" class="icn pinterest">Pinterest</a>
+					<a href="#" class="icn youtube">Youtube</a>
+					<a href="#" class="icn picasa">Picasa</a>
+					<a href="#" class="icn wordpress">WordPress</a>
+					<a href="#" class="icn digg">Digg</a>
+				</p>
+			</div>	
+		</div>
+	</div>
+</div><!-- contact-wrap -->
+<div id="bottom"></div>
+
+<a href="#" id="btop">Back to Top</a>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="fancybox/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.formLabels1.0.js"></script>
+<script src="js/jquery.smooth-scroll.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/contact.js"></script>
+
+
+</body>
+</html>
