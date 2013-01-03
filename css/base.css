@@ -18,7 +18,9 @@ h1, h2, h3, h4, h5, h6 { color: #181818; font-family: "Georgia","Times New Roman
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit }
 h2 { font: bold 36px 'Lato', sans-serif; font-style: italic; color: #fff; }
 .subheader { color: #777 }
+/* Adicionei para a pagina de pagamento, remover se der problema */
 h4 { font: bold 24px 'Lato', sans-serif; font-style: italic; color: #fff; text-align: center; }
+/* até aqui */
 .subheader { color: #777 }
 p { margin: 0 0 20px }
 p img { margin: 0 }
